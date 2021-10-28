@@ -1,0 +1,16 @@
+export const homeobj1 = {
+    id: 'signup',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Pronto',
+    headLine: 'Signup',
+    description: 'add a description here', 
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    img: require('../../images/signup.svg'),
+    alt: 'Signup',
+    dark: true,
+    primary: true,
+    darkText: true,
+}
