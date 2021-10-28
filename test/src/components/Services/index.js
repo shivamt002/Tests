@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon1 from '../../images/courier.svg';
-import Icon2 from '../../images/Scooter_Outline1.svg';
+import Icon2 from '../../images/Scooter_Outline(2).svg';
 import Icon3 from '../../images/delivery.svg';
 import { 
     ServicesContainer, 
