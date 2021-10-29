@@ -8,7 +8,7 @@ export const homeobj1 = {
     description: 'add a description here', 
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: require('../../images/signup.svg'),
+    img: require('../../images/signup1.svg'),
     alt: 'Signup',
     dark: false,
     primary: false,
