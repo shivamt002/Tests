@@ -1,4 +1,5 @@
 import React from 'react'
+import {animateScroll as scroll} from 'react-scroll'
 import { 
     FooterContainer,
     FooterWrap,
@@ -12,10 +13,13 @@ import {
     SocialLogo,
     WebsiteRights,
     SocialIcons,
-    SocialIconLink} from './FooterElemens'
+    SocialIconLink} from './FooterElements'
 import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa'
 import Mail from '@material-ui/icons/Mail'
 const Footer = () => {
+    const toggleHome = () =>{
+        scroll.scrollToTop();
+    }
     return (
         <FooterContainer>
             <FooterWrap>
@@ -51,15 +55,15 @@ const Footer = () => {
                 </FooterLinksContainer> 
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to=''>
+                        <SocialLogo to='/' onClick={toggleHome}>
                             Pronto
                         </SocialLogo>
                         <WebsiteRights>Pronto © {new Date().getFullYear()} All rights reserved. </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href='/' targert="_blank" aria-label="Facebook"><FaFacebook /></SocialIconLink>
-                            <SocialIconLink href='/' targert="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
-                            <SocialIconLink href='/' targert="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
-                            <SocialIconLink href='/' targert="_blank" aria-label="Gmail"><Mail /></SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" aria-label="Facebook"><FaFacebook /></SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" aria-label="Gmail"><Mail /></SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
