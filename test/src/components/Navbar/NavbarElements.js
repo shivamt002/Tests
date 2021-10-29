@@ -79,6 +79,8 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
 
     &.active {
         border-bottom: 3px solid #01bf71;
@@ -88,6 +90,8 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
+    
+    
 
     @media screen and (max-width: 768px){
         display: none;

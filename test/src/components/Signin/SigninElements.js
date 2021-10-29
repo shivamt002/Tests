@@ -15,7 +15,7 @@ overflow: hidden;
     rgba(1, 147, 86, 1) 0%,
     rgba(10, 201, 122, 1) 100%
 );*/
-background: -webkit-linear-gradient(left, #a445b2,#fa4299)
+background: -webkit-linear-gradient(right, #ccf9ff,#4c9a8f)
 `;
 
 export const FormWrap = styled.div`

@@ -13,7 +13,7 @@ import {
      Img,
      Column2,
      SignBtnLink} from './InfoElements'
-import {Button} from '../ButtonElement'
+
 
 const InfoSection = ({
     lightBg, 

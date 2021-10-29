@@ -30,7 +30,7 @@ const Footer = () => {
                             <FooterLinkTitle>Home <br/><br/></FooterLinkTitle>
                                 <FooterLink to = "/signin">About</FooterLink>
                                 <FooterLink to = "/signin">Services</FooterLink>
-                                <FooterLink to = "/signin">Signin</FooterLink>    
+                                <FooterLink to = "/signin">Sign In</FooterLink>    
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact Us</FooterLinkTitle>
@@ -43,14 +43,14 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
                                 <FooterLink to = "/signin">How it Works</FooterLink>
-                                <FooterLink to = "/signin">Carrers</FooterLink>
+                               
                                 <FooterLink to = "/signin">Terms and Conditions</FooterLink>    
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink to = "/signin">Instagram</FooterLink>
-                                <FooterLink to = "/signin">Facebook</FooterLink>
-                                <FooterLink to = "/signin">Twitter</FooterLink>    
+                        <FooterLinkTitle>Community <br/><br/></FooterLinkTitle>
+                                <FooterLink to = "/signin">Announcements</FooterLink>
+                                <FooterLink to = "/signin">Discussion board</FooterLink>
+                                <FooterLink to = "/signin">Job opportunities</FooterLink>    
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer> 

@@ -19,17 +19,17 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Courier</ServicesH2>
-                    <ServicesP>Content1</ServicesP>
+                    <ServicesP>Secure door-to-door courier service</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2>Bike Taxi</ServicesH2>
-                    <ServicesP>Content2</ServicesP>
+                    <ServicesP>Swift and affordable bike rides</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Home Delivery</ServicesH2>
-                    <ServicesP>Content3</ServicesP>
+                    <ServicesP>Safe and reliable delivery service</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
