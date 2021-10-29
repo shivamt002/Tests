@@ -10,7 +10,7 @@ export const homeobj1 = {
     imgStart: false,
     img: require('../../images/signup.svg'),
     alt: 'Signup',
-    dark: true,
-    primary: true,
+    dark: false,
+    primary: false,
     darkText: true,
 }

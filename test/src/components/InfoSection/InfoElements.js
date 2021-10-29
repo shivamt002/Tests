@@ -55,7 +55,7 @@ export const TopLine = styled.p`
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
-    text-transfor,: uppercase;
+    text-transform: uppercase;
     margin-bootom: 16px;
 `
 
