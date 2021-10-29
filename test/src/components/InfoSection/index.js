@@ -11,7 +11,8 @@ import {
      BtnWrap,
      ImgWrap,
      Img,
-     Column2} from './InfoElements'
+     Column2,
+     SignBtnLink} from './InfoElements'
 import {Button} from '../ButtonElement'
 
 const InfoSection = ({
@@ -40,7 +41,7 @@ const InfoSection = ({
                             <Heading darkText = {darkText}>{headLine}</Heading>
                             <Subtitle darkText = {darkText}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button to= {'signin'}
+                                <SignBtnLink to= {'/signin'}
                                 smooth ={true} 
                                 duration={500} 
                                 spy={true}
@@ -48,7 +49,7 @@ const InfoSection = ({
                                 offset ={-80}
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
-                                dark2 ={dark2 ? 1 : 0}>{buttonLabel}</Button>
+                                dark2 ={dark2 ? 1 : 0}>{buttonLabel}</SignBtnLink>
                             </BtnWrap>
                         </TextWrapper>
                       </Column1>
