@@ -16,6 +16,7 @@ import {
     SocialIconLink} from './FooterElements'
 import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa'
 import Mail from '@material-ui/icons/Mail'
+
 const Footer = () => {
     const toggleHome = () =>{
         scroll.scrollToTop();
