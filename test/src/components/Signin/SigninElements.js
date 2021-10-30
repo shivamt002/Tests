@@ -11,7 +11,7 @@ top: 0;
 z-index: 0;
 overflow: hidden;
 
-background: -webkit-linear-gradient(right, #85d2b1,#01bf71)
+background: -webkit-linear-gradient(right, #85d2b1,#4cc191)
 `;
 
 export const FormWrap = styled.div`
