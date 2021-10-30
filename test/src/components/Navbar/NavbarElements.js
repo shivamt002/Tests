@@ -38,6 +38,7 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+    text-shadow: 1px 1px 2px #010101;
 `
 
 export const MobileIcon = styled.div`
@@ -81,6 +82,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: bold;
+    text-shadow: 1px 1px 2px #010101;
 
     &.active {
         border-bottom: 3px solid #01bf71;

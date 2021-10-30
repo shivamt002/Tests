@@ -10,12 +10,8 @@ right: 0;
 top: 0;
 z-index: 0;
 overflow: hidden;
-/*background: linear-gradient(
-    108deg,
-    rgba(1, 147, 86, 1) 0%,
-    rgba(10, 201, 122, 1) 100%
-);*/
-background: -webkit-linear-gradient(right, #ccf9ff,#4c9a8f)
+
+background: -webkit-linear-gradient(right, #85d2b1,#01bf71)
 `;
 
 export const FormWrap = styled.div`
@@ -36,6 +32,7 @@ text-decoration: none;
 color: #fff;
 font-weight: 700;
 font-size: 32px;
+text-shadow: 1px 1px 2px #010101;
 
 @media screen and (max-width: 480px) {
     margin-left: 16px;
